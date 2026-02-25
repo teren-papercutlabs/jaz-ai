@@ -1,0 +1,25 @@
+{
+  "name": "jaz-plugins",
+  "id": "jaz-plugins",
+  "owner": {
+    "name": "Jaz Engineering",
+    "email": "api-support@jaz.ai"
+  },
+  "metadata": {
+    "description": "Jaz accounting platform skills for AI agents and humans",
+    "version": "4.2.0"
+  },
+  "plugins": [
+    {
+      "name": "jaz-ai",
+      "source": "./",
+      "description": "Every endpoint, field name, error code, and production gotcha for Jaz — directly inside your AI agent. API reference + data conversion playbook + 16 transaction recipes + 12 accounting jobs + Singapore Form C-S tax computation + 10 CLI financial calculators.",
+      "version": "4.2.0",
+      "author": {
+        "name": "Jaz Engineering"
+      },
+      "keywords": ["jaz", "juan", "accounting", "api", "conversion", "migration", "xero", "quickbooks"],
+      "category": "productivity"
+    }
+  ]
+}
