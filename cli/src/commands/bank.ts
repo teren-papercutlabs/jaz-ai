@@ -80,7 +80,7 @@ export function registerBankCommand(program: Command): void {
         filter: Object.keys(filter).length > 0 ? filter : undefined,
         limit: opts.limit ?? 50,
         offset: 0,
-        sort: { sortBy: ['date'], order: 'DESC' },
+        sort: { sortBy: ['valueDate'], order: 'DESC' },
       });
 
       if (opts.json) {
